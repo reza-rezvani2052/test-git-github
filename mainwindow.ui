@@ -26,8 +26,20 @@
      <height>25</height>
     </rect>
    </property>
+   <widget class="QMenu" name="mniFile">
+    <property name="title">
+     <string>فایل</string>
+    </property>
+    <addaction name="actQuit"/>
+   </widget>
+   <addaction name="mniFile"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actQuit">
+   <property name="text">
+    <string>خروج</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
